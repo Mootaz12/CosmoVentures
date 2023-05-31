@@ -3,7 +3,7 @@ import { AboutUsCard } from "./index";
 const About = () => {
   return (
     <section id="About US" className="bg-bgClr bg-opacity-80  py-16 px-24 ">
-      <h2 className="text-black text-md font-poppins text-[48px] mb-10">
+      <h2 className="text-white text-md font-poppins text-[48px] mb-10">
         About
       </h2>
       <div className="flex items-center gap-[200px]">

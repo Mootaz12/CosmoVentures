@@ -6,7 +6,7 @@ import Testimonials from "./Testimonials";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import TestamonilaCard from "./TestimonialCard";
+import TestimonilaCard from "./TestimonialCard";
 import CTA from "./CTA";
 import FeatureCard from "./FeatureCard";
 import AboutUsCard from "./AboutUsCard";
@@ -19,7 +19,7 @@ export {
   About,
   Contact,
   Footer,
-  TestamonilaCard,
+  TestimonilaCard,
   CTA,
   FeatureCard,
   AboutUsCard,

@@ -1,7 +1,7 @@
 import { navbar } from "../constants";
 const Navbar = () => {
   return (
-    <nav className="flex justify-between px-20 py-5  fixed top-0 w-full  bg-blue">
+    <nav className="flex justify-between px-20 py-5  fixed top-0 w-[100vw]  bg-blue">
       <div className=" font-Orbitron font-semibold text-darkBlue">{`${navbar.logo}`}</div>
       <ul className="flex ">
         {navbar.navbarItems.map((navItem, index) => (

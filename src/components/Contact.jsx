@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { contact } from "../constants";
 const Contact = () => {
   return (
@@ -6,13 +8,18 @@ const Contact = () => {
         Contact
       </h2>
       <p className="mb-10">{contact}</p>
-      <div className="relative">
+      <div className="relative w-fit  ">
         <input
           type="text"
           placeholder="xyz@gmail.com"
-          className="bg-orange rounded-full p-4 placeholder-gray-800 font-semibold text-darkBlue text-lg"
+          className="bg-orange outline-none  h-16 rounded-full p-4 placeholder-gray-600 font-semibold text-darkBlue text-lg"
         />
-        <div className="absolute top-0 right-auto bg-green"></div>
+        <div className="absolute top-0 right-0  rounded-full bg-green h-16 p-5">
+          <FontAwesomeIcon
+            icon={faArrowRight}
+            className="text-darkBlue w-6  aspect-square"
+          />
+        </div>
       </div>
     </section>
   );
